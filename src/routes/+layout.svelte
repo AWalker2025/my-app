@@ -1,15 +1,16 @@
 <script>
-    import "./style.css"
+  import "./style.css"
 </script>
 
 <div class= "header">
-    <h1>Random Photo Generator: Discover Endless Inspiration with Every Refresh</h1>  
-  </div>
+  <h1>Random Photo Generator: Discover Endless Inspiration with Every Refresh</h1>  
+</div>
 
 <div class="topnav">
-    <a href="/mobile" id="mobile-button">Mobile</a>
-    <a href="/tablet" id="tablet-button">Tablet</a>
-    <a href="/desktop" id="desktop-button">Desktop</a>
+  <a href="/" id="home-button">Home</a>
+  <a href="/mobile" id="mobile-button">Mobile</a>
+  <a href="/tablet" id="tablet-button">Tablet</a>
+  <a href="/desktop" id="desktop-button">Desktop</a>
 </div>
 
 
