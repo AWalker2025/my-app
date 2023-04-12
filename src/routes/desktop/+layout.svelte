@@ -6,19 +6,19 @@
     <form>
       <p><b>Filter Results:</b></p>
      <label for="normal">
-       <input type="radio" id="normal" name="fav_language" value="" bind:group={$filter}> Normal
+       <input type="radio" id="normal" name="fav_language" value="" bind:group={$filter}>Normal
      </label><br>
   
      <label for="greyscale">
-          <input type="radio" id="greyscale" name="fav_language" value="grayscale" bind:group={$filter}> Greyscale
+          <input type="radio" id="greyscale" name="fav_language" value="grayscale" bind:group={$filter}>Greyscale
      </label><br>
   
      <label for="blur">
-          <input type="radio" id="blur" name="fav_language" value="blur" bind:group={$filter}> Blur
+          <input type="radio" id="blur" name="fav_language" value="blur" bind:group={$filter}>Blur
      </label><br>
   
      <label for="both">
-      <input type="radio" id="greyscale and blur" name="fav_language" value="grayscale&blur" bind:group={$filter}> Greyscale and Blur
+      <input type="radio" id="greyscale and blur" name="fav_language" value="grayscale&blur" bind:group={$filter}>Greyscale and Blur
   </label><br>
   </form>
   <div class="Counter">

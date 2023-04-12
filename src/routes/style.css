@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-color: #f2f2f2;
+    background-color: #F79D84;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
@@ -14,12 +14,13 @@
 .header h1{
 margin: 0;
 padding: 2rem;
+color: #333;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #F79D84;
   
 }
 
@@ -53,19 +54,20 @@ body {
 form{
    
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #FAC05E;
   justify-content: space-between;
   padding-left: 2rem;
+  text-align: left;
   
 }
 
 .Counter{
-background-color: #f2f2f2;
+background-color: #FAC05E;
 padding-right: 2rem;
 }
 
 .options{
-background-color: #f2f2f2;
+background-color: #FAC05E;
 display: flex; 
 justify-content: space-between;
 padding-bottom:2rem ;
@@ -76,16 +78,19 @@ align-items: baseline;
 
 /* Style the content */
 .content {
-  background-color: #ddd;
+  background-color: #FAC05E;
   padding: 10px;
   text-align: center;
 }
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: #F79D84;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
+.grid{
+  margin:1rem
+}

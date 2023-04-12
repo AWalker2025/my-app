@@ -10,6 +10,6 @@
 
 <div>
     {#each numbers as number}
-        <img alt="random photo" src={"https://picsum.photos/" + width + "/" + height + "?random=" + number }>
+        <img class ="grid" alt="random photo" src={"https://picsum.photos/" + width + "/" + height + "?random=" + number }>
     {/each}
 </div>

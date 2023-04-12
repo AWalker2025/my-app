@@ -10,7 +10,7 @@
 
 <div>
     {#each numbers as number}
-        <img src={"https://picsum.photos/1440/768?random=" + number + filters} alt="random photo">
+        <img src={"https://picsum.photos/1900/1005?random=" + number + filters} alt="random photo">
     {/each}
 </div>
 
