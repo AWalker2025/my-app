@@ -1,14 +1,12 @@
 <h1>Desktop</h1>
-<!-- 
+
 <script>
-    import { count } from "./+layout.svelte"
+    import { count, filter } from "./store"
 
-    //export let count = 0
+    $: numbers = Array.from({ length: $count }).map((_, i) => i)
 
-    const numberOfImages = 20
-
-    const numbers = Array.from({ length: numberOfImages }).map((_, i) => i)
-</script> -->
+    $: filters = $filter === "" ? "" : "&" + $filter
+</script>
 
 <div>
     <img src="https://picsum.photos/1440/768" alt="random photo" />
