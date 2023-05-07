@@ -11,7 +11,7 @@
 </script> -->
 
 <div>
-    <img src="https://picsum.photos/1440/768" alt="random photo">
+    <img src="https://picsum.photos/1440/768" alt="random photo" />
 </div>
 
 <style>
