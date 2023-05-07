@@ -1,30 +1,29 @@
 <script>
-  import { count, filter } from './store'
+    export let count;
 </script>
-
 <div class ="options">
     <form>
       <p><b>Filter Results:</b></p>
      <label for="normal">
-       <input type="radio" id="normal" name="fav_language" value="" bind:group={$filter}>Normal
+       <input type="radio" id="normal" name="fav_language" value="Normal"> Normal
      </label><br>
   
      <label for="greyscale">
-          <input type="radio" id="greyscale" name="fav_language" value="grayscale" bind:group={$filter}>Greyscale
+          <input type="radio" id="greyscale" name="fav_language" value="Greyscale"> Greyscale
      </label><br>
   
      <label for="blur">
-          <input type="radio" id="blur" name="fav_language" value="blur" bind:group={$filter}>Blur
+          <input type="radio" id="blur" name="fav_language" value="blur"> Blur
      </label><br>
   
      <label for="both">
-      <input type="radio" id="greyscale and blur" name="fav_language" value="grayscale&blur" bind:group={$filter}>Greyscale and Blur
+      <input type="radio" id="greyscale and blur" name="fav_language" value="greyscale and blur"> Greyscale and Blur
   </label><br>
   </form>
   <div class="Counter">
     <p><b>Number of Photos Needed:</b></p>
-    <input type="range" bind:value={$count} min=0 max=20 />
-    <span>{ $count }</span>
+    <button>Red</button>
+    <span>{ count }</span>
   </div>
 </div>
 
